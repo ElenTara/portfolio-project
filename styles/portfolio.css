@@ -54,6 +54,13 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--branding-color);
+}
+.nav-link {
+  padding: 0 10px !important;
+}
 
 .logo {
   max-width: 150px;
@@ -79,7 +86,7 @@ nav li.active a {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
