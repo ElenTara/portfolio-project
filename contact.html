@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Elena. Elena Tarasenko is a front-end developer, based in Odessa"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,20 +31,20 @@
       src="https://kit.fontawesome.com/7c6671ea81.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contact me</title>
+    <title>Contact Elena Tarasenko</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" title="Homepage">
           <img
             src="/images/logo.png"
-            alt="Logo"
+            alt="Elena logo"
             class="logo d-none d-md-block"
           />
           <img
             src="/images/logo-small.png"
-            alt="Logo"
+            alt="Elena logo"
             class="logo d-block d-md-none"
           />
         </a>
@@ -57,10 +61,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="/work.html">Work</a>
-            <a class="nav-link active" href="/contact.html">Contact</a>
+            <a class="nav-link" aria-current="page" href="/" title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link" href="/about.html" title="About Elena">About</a>
+            <a class="nav-link" href="/work.html" title="Elena's work">Work</a>
+            <a
+              class="nav-link active"
+              href="/contact.html"
+              title="Contact Elena"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -71,7 +82,9 @@
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:ta_ele@yahoo.com" target="_blank">ta_ele@yahoo.com</a>
+          <a href="mailto:ta_ele@yahoo.com" target="_blank" title="Email Elena"
+            >ta_ele@yahoo.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
         <p>
@@ -81,13 +94,70 @@
             >www.linkedin.com/in/elena-tarasenko-2023et/</a
           >
         </p>
-        <h3>LinkedIn</h3>
+        <h3>GitHub</h3>
         <p>
-          <a href="https://github.com/ElenTara" target="_blank"
+          <a
+            href="https://github.com/ElenTara"
+            target="_blank"
+            title="GitHub Profile"
             >https://github.com/ElenTara</a
           >
         </p>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let’s work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-1"
+              title="Contact Elena"
+              >Contact&nbsp;me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:ta_ele@yahoo.com"
+            class="email-link"
+            title="Email Elena"
+          >
+            ta_ele@yahoo.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/ElenTara"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/elena-tarasenko-2023et/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:ta_ele@yahoo.com" target="_blank" title="Email Elena">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Elena Tarasenko, and it’s
+          <a
+            href="https://github.com/ElenTara/portfolio-project"
+            target="_blank"
+            title="GitHub Profile"
+            >open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
